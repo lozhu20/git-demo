@@ -7,4 +7,8 @@ public class Main {
     private static void feature1() {
         System.out.println("feature1");
     }
+
+    private static void feature2() {
+        System.out.println("feature2");
+    }
 }
