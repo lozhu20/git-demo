@@ -11,4 +11,8 @@ public class Main {
     private static void feature2() {
         System.out.println("feature2");
     }
+
+    private static void feature2() {
+        System.out.println("feature3");
+    }
 }

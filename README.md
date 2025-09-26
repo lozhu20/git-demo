@@ -1,2 +1,2 @@
 # git-demo
-Demo project for practice git.
+A demo project for practice git.
