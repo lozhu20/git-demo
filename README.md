@@ -38,7 +38,7 @@ date: yyyy-MM-dd HH:mm:ss
 - main 不做commit，只接受tag，develop分支基于main分支创建。
 - develop
 - feature 特性开发，基于develop分支创建；开发完成后代码合并到develop（使用squash选项进行压缩）并删除feature分支。
-- release 基于develop分支创建，可在该分支上进行测试和bug修复，发布之后删除release分支。
+- release 基于develop分支创建，可在该分支上进行测试和bug修复，发布之后将代码合并到main分支及develop分支，然后删除release分支。
 - hotfix 基于main分支创建，开发完成后需合并回main分支和develop分支，同时在main分支打上tag。
 
 参考文档 [gitflow 规范指南](https://www.cnblogs.com/kevin-ying/p/14329768.html)
